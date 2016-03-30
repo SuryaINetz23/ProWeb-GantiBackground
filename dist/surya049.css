@@ -1,0 +1,92 @@
+
+/* Copyright 2016 by Surya.PW */
+
+/*Style untuk bagian body*/
+body {
+    background-color: orange;
+    text-align: center;
+    font-family: sans-serif;
+}
+/*Style untuk bagian tombol "Ganti"*/
+#btnGanti {
+    padding: 7.5px 10px;
+    background-color: #3F51B5;
+    color: azure;
+    border-radius: 0px;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+}
+/*Style untuk bagian tombol "Ganti" saat hover*/
+#btnGanti:hover {
+    box-shadow: 1px 1px 1px black;
+    background-color: 0925BB;
+}
+/*Style untuk bagian selector "warna"*/
+#warna {
+    padding: 6px 10px;
+    border-radius: 0px;
+    margin: 5px;
+    border: 1px solid;
+    font-weight: bold;
+}
+/*Style untuk bagian selector "warna" saat hover*/
+#warna:hover {
+    box-shadow: 1px 1px 1px black;
+}
+/*Style untuk bagian kotak*/
+.box {
+    max-width: 400px;
+    background-color: azure;
+    box-shadow: 0 2px 3px black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 207px;
+    margin: auto;
+}
+/*Style untuk bagian kotak header*/
+.box-header {
+    text-transform: uppercase;
+    background-color: #61616D;
+    padding: 15px;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*Style untuk bagian kotak body*/
+.box-body {
+    padding: 15px;
+}
+/*Style untuk bagian info*/
+.box-body > span {
+    text-align: justify;
+}
+/*Style untuk letak selektor "warna" dan button "ganti"*/
+.form {
+    margin-top: 15px;
+}
+/*Style untuk bagian kotak footer*/
+.box-footer {
+    font-weight: bold;
+    background-color: #61616D;
+    padding: 8px;
+    color: azure;
+}
+/*Style untuk elemen link yang ada didalam elemen small pada class box-footer */
+.box-footer > small > a {
+    text-decoration: none;
+    color: orange;
+}
+/*Style untuk layar yang memiliki lebar <= 420px*/
+@media only screen and (max-width: 420px) {
+    /*Style untuk bagian kotak*/
+    .box {
+        max-height: 265px;
+        max-width: 350px;
+        margin: auto 10px;
+    }
+}
